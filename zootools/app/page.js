@@ -24,14 +24,14 @@ const Page = () => {
             {/* Left Column */}
             <div className="flex-1 md:mr-6">
               <h1 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#6A11CB] to-[#2575FC] mb-4">
-                Hello, I'm Mohd Musaiyab
+                Hello, I &apos m Mohd Musaiyab
               </h1>
               <p className="text-lg text-gray-300 mb-6">
                 Full Stack Developer | Passionate about creating innovative,
                 scalable web applications.
               </p>
               <p className="text-gray-400 leading-relaxed">
-                I'm excited to apply for a position at{" "}
+                I &apos m excited to apply for a position at{" "}
                 <span className="font-semibold">Zootools</span>. With my
                 experience in building dynamic platforms like{" "}
                 <Link
@@ -76,7 +76,7 @@ const Page = () => {
                     About Me
                   </h2>
                   <p className="text-gray-300 mb-4">
-                    I'm Mohd Musaiyab, a full-stack developer passionate about
+                    I &apos m Mohd Musaiyab, a full-stack developer passionate about
                     building efficient and scalable web applications. I love
                     collaborating on challenging problems and leveraging modern
                     web technologies to create impactful solutions.
@@ -140,7 +140,7 @@ const Page = () => {
             >
               Canteen Connect
             </Link>
-            , I am eager to contribute to Zootools' mission of delivering
+            , I am eager to contribute to Zootools &apos mission of delivering
             impactful solutions.
             <br />
             <br />
@@ -193,6 +193,66 @@ const Page = () => {
               >
                 View Project <ArrowRight className="ml-2" />
               </a>
+            </div>
+          </div>
+        </section>
+        {/* What I Bring to the Team */}
+        <section className="bg-gradient-to-br from-[#1F1F1F] to-[#2C2C2C] rounded-2xl shadow-2xl p-8 mb-12 border border-gray-800">
+          <h2 className="text-3xl font-bold text-[#2575FC] mb-6">
+            What I Bring to Zootools
+          </h2>
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-[#121212] p-6 rounded-lg hover:shadow-2xl transition">
+              <h3 className="font-semibold text-[#2575FC] mb-2">
+                Proven Track Record
+              </h3>
+              <p className="text-gray-300">
+                Successfully built platforms like{" "}
+                <Link
+                  href="https://gossipyfy.vercel.app/"
+                  target="_blank"
+                  className="font-semibold text-[#2575FC]"
+                >
+                  Gossipyfy
+                </Link>{" "}
+                and{" "}
+                <Link
+                  href="https://github.com/canteen-Connect"
+                  target="_blank"
+                  className="font-semibold text-[#2575FC]"
+                >
+                  Canteen Connect
+                </Link>
+                , showcasing my ability to deliver scalable, user-focused
+                solutions.
+              </p>
+            </div>
+            <div className="bg-[#121212] p-6 rounded-lg hover:shadow-2xl transition">
+              <h3 className="font-semibold text-[#2575FC] mb-2">
+                Adaptability
+              </h3>
+              <p className="text-gray-300">
+                Comfortable working across different technologies and quickly
+                learning new tools to align with team goals and project needs.
+              </p>
+            </div>
+            <div className="bg-[#121212] p-6 rounded-lg hover:shadow-2xl transition">
+              <h3 className="font-semibold text-[#2575FC] mb-2">
+                User-Centric Design
+              </h3>
+              <p className="text-gray-300">
+                Expertise in creating solutions that prioritize seamless user
+                experiences and accessibility.
+              </p>
+            </div>
+            <div className="bg-[#121212] p-6 rounded-lg hover:shadow-2xl transition">
+              <h3 className="font-semibold text-[#2575FC] mb-2">
+                Collaborative Spirit
+              </h3>
+              <p className="text-gray-300">
+                A proactive team player who values open communication and
+                collaboration to achieve shared goals.
+              </p>
             </div>
           </div>
         </section>
