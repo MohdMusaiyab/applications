@@ -24,14 +24,15 @@ const Page = () => {
             {/* Left Column */}
             <div className="flex-1 md:mr-6">
               <h1 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#6A11CB] to-[#2575FC] mb-4">
-                Hello, I &apos m Mohd Musaiyab
+                Hello! I &apos; m Mohd <span>Musaiyab</span>
               </h1>
+
               <p className="text-lg text-gray-300 mb-6">
                 Full Stack Developer | Passionate about creating innovative,
                 scalable web applications.
               </p>
-              <p className="text-gray-400 leading-relaxed">
-                I &apos m excited to apply for a position at{" "}
+              <p className="text-gray-300 leading-relaxed">
+                I &apos; m excited to apply for a position at{" "}
                 <span className="font-semibold">Zootools</span>. With my
                 experience in building dynamic platforms like{" "}
                 <Link
@@ -41,7 +42,7 @@ const Page = () => {
                 >
                   Gossipyfy
                 </Link>{" "}
-                and
+                and{" "}
                 <Link
                   href={"https://github.com/canteen-Connect"}
                   target="_blank"
@@ -50,7 +51,7 @@ const Page = () => {
                   {" "}
                   Canteen Connect
                 </Link>{" "}
-                I aim to bring value to your team by delivering robust and
+                , I aim to bring value to your team by delivering robust and
                 impactful solutions tailored to user needs.
               </p>
               <div className="space-x-4 mt-6">
@@ -76,17 +77,17 @@ const Page = () => {
                     About Me
                   </h2>
                   <p className="text-gray-300 mb-4">
-                    I &apos m Mohd Musaiyab, a full-stack developer passionate about
-                    building efficient and scalable web applications. I love
-                    collaborating on challenging problems and leveraging modern
-                    web technologies to create impactful solutions.
+                    I &apos; m Mohd Musaiyab, a full-stack developer passionate
+                    about building efficient and scalable web applications. I
+                    love collaborating on challenging problems and leveraging
+                    modern web technologies to create impactful solutions.
                   </p>
+                  <div className="absolute top-0 right-0 bg-indigo-600 text-white text-sm px-3 py-1 rounded-lg shadow-lg">
+                    Notion Docs
+                  </div>
                 </Link>
 
                 {/* Floating Message */}
-                <div className="absolute top-0 right-0 bg-indigo-600 text-white text-sm px-3 py-1 rounded-lg shadow-lg">
-                  Notion Docs
-                </div>
               </section>
 
               {/* Portfolio Section */}
@@ -140,7 +141,7 @@ const Page = () => {
             >
               Canteen Connect
             </Link>
-            , I am eager to contribute to Zootools &apos mission of delivering
+            , I am eager to contribute to Zootools &apos; mission of delivering
             impactful solutions.
             <br />
             <br />
@@ -179,15 +180,21 @@ const Page = () => {
                 View Project <ArrowRight className="ml-2" />
               </a>
             </div>
-            <div className="bg-[#121212] text-gray-100 p-6 rounded-lg hover:shadow-2xl transition">
-              <h3 className="text-xl font-semibold text-[#2575FC] mb-3">
-                Canteen Connect
-              </h3>
+            <div className="relative bg-[#121212] text-gray-100 p-6 rounded-lg hover:shadow-2xl transition">
+              <div className="flex items-center justify-between">
+                <h3 className="text-xl font-semibold text-[#2575FC] mb-3">
+                  MessMatch
+                </h3>
+                <span className="inline-block bg-[#2575FC] text-white text-xs font-semibold px-2 py-1 rounded-full">
+                  Currently Building
+                </span>
+              </div>
               <p className="text-gray-300 mb-4">
-                Real-time cafeteria management system for over 5000+ users.
+                Platform to connect mess contractors with colleges, corporates,
+                and events.
               </p>
               <a
-                href="https://github.com/Canteen-Connect"
+                href="https://github.com/MohdMusaiyab/MessMatch"
                 target="_blank"
                 className="flex items-center text-[#2575FC] hover:underline"
               >
@@ -305,7 +312,7 @@ const Page = () => {
                 {["JavaScript", "TypeScript", "C++", "Python"].map((lang) => (
                   <span
                     key={lang}
-                    className="bg-[#121212] text-[#2575FC] px-3 py-1 rounded-full text-sm border border-[#2575FC]/30"
+                    className="bg-[#121212] text-[#2575FC] px-3 py-1 rounded-full text-sm border border-[#2575FC]/30 transition-transform duration-200 hover:scale-110 hover:bg-[#2575FC] hover:text-white"
                   >
                     {lang}
                   </span>
@@ -320,7 +327,7 @@ const Page = () => {
                 {["React", "Next.js", "Node.js", "Express"].map((frame) => (
                   <span
                     key={frame}
-                    className="bg-[#121212] text-[#2575FC] px-3 py-1 rounded-full text-sm border border-[#2575FC]/30"
+                    className="bg-[#121212] text-[#2575FC] px-3 py-1 rounded-full text-sm border border-[#2575FC]/30 transition-transform duration-200 hover:scale-110 hover:bg-[#2575FC] hover:text-white"
                   >
                     {frame}
                   </span>
@@ -335,7 +342,7 @@ const Page = () => {
                 {["MongoDB", "PostgreSQL", "MySQL"].map((db) => (
                   <span
                     key={db}
-                    className="bg-[#121212] text-[#2575FC] px-3 py-1 rounded-full text-sm border border-[#2575FC]/30"
+                    className="bg-[#121212] text-[#2575FC] px-3 py-1 rounded-full text-sm border border-[#2575FC]/30 transition-transform duration-200 hover:scale-110 hover:bg-[#2575FC] hover:text-white"
                   >
                     {db}
                   </span>
@@ -350,7 +357,7 @@ const Page = () => {
                 {["Docker", "Postman", "GitHub", "Prisma ORM"].map((tool) => (
                   <span
                     key={tool}
-                    className="bg-[#121212] text-[#2575FC] px-3 py-1 rounded-full text-sm border border-[#2575FC]/30"
+                    className="bg-[#121212] text-[#2575FC] px-3 py-1 rounded-full text-sm border border-[#2575FC]/30 transition-transform duration-200 hover:scale-110 hover:bg-[#2575FC] hover:text-white"
                   >
                     {tool}
                   </span>
@@ -368,9 +375,16 @@ const Page = () => {
           <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             {[
               {
+                title: "Mess Match",
+                description:
+                  "A platform Connecting Colleges and Corporates with Mess Vendors and Contractors",
+                website: "https://github.com/MohdMusaiyab/MessMatch",
+                repo: "https://github.com/MohdMusaiyab/MessMatch",
+              },
+              {
                 title: "E-estate",
                 description:
-                  "A real-estate listing application built using MERN ,Tailwind and Redux",
+                  "A real-estate listing application built using MERN, Tailwind, and Redux",
                 website: "https://e-estate.onrender.com/",
                 repo: "https://github.com/MohdMusaiyab/real-estate",
               },
@@ -381,17 +395,10 @@ const Page = () => {
                 website: "https://mandmecommerce.onrender.com/",
                 repo: "https://github.com/MohdMusaiyab/e-commerce-frontend",
               },
-              {
-                title: "Mess Match",
-                description:
-                  "A platform Connecting Colleges and Corporates with Mess Vendors and Contractors",
-                website: "https://github.com/MohdMusaiyab/MessMatch",
-                repo: "https://github.com/MohdMusaiyab/MessMatch",
-              },
             ].map((project, index) => (
               <div
                 key={index}
-                className="bg-[#121212] p-6 rounded-lg shadow-md hover:shadow-2xl transition"
+                className="bg-[#121212] p-6 rounded-lg shadow-md hover:shadow-2xl hover:scale-105 hover:border-[#2575FC] transition-transform duration-300 border border-gray-800"
               >
                 <h3 className="text-xl font-semibold text-[#2575FC] mb-3">
                   {project.title}
@@ -402,7 +409,7 @@ const Page = () => {
                     href={project.website}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-[#2575FC] hover:underline"
+                    className="text-[#2575FC] hover:underline hover:text-white"
                   >
                     Visit Website
                   </a>
@@ -410,7 +417,7 @@ const Page = () => {
                     href={project.repo}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-300 hover:underline"
+                    className="text-gray-300 hover:underline hover:text-[#2575FC]"
                   >
                     GitHub Repo
                   </a>
@@ -418,6 +425,13 @@ const Page = () => {
               </div>
             ))}
           </div>
+        </section>
+        <section className=" mt-5 bg-gradient-to-br from-[#1F1F1F] to-[#2C2C2C] rounded-2xl shadow-2xl p-8 border border-gray-800 text-center">
+          <h2 className="text-3xl font-bold text-[#2575FC] mb-4">Thank You!</h2>
+
+          <p className="text-gray-400 text-sm">
+            Made with ❤️ by Mohd Musaiyab and AI.
+          </p>
         </section>
       </div>
     </div>
