@@ -69,7 +69,7 @@ const Page = () => {
               {/* About Me Section */}
               <section className="relative mb-6">
                 <Link
-                  href="https://www.notion.so/About-Me-769116254f004e60b25e9867cf093986"
+                  href="https://nosy-shear-a9c.notion.site/About-Me-769116254f004e60b25e9867cf093986"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
