@@ -10,8 +10,8 @@ import {
   Database,
   Server,
   ArrowRight,
+  Briefcase,
 } from "lucide-react";
-
 import Link from "next/link";
 
 const Page = () => {
@@ -42,7 +42,15 @@ const Page = () => {
                 >
                   Gossipyfy
                 </Link>{" "}
-                and{" "}
+                <Link
+                  href={"https://mess-bazaar.vercel.app/"}
+                  target="_blank"
+                  className="font-semibold"
+                >
+                  {" "}
+                  Mess-Bazaar
+                </Link>{" "}
+                and
                 <Link
                   href={"https://github.com/canteen-Connect"}
                   target="_blank"
@@ -133,14 +141,22 @@ const Page = () => {
             >
               Gossipyfy
             </Link>
-            and{"  "}
+            {" , "}
+            <Link
+              href="https://mess-bazaar.vercel.app/"
+              target="_blank"
+              className="font-semibold text-[#2575FC]"
+            >
+              Mess-Bazaar
+            </Link>
+            {" and "}
             <Link
               href="https://github.com/canteen-Connect"
               target="_blank"
               className="font-semibold text-[#2575FC]"
             >
-              Canteen Connect
-            </Link>
+              Canteen-Connect
+            </Link>{" "}
             , I am eager to contribute to Zootools &apos; mission of delivering
             impactful solutions.
             <br />
@@ -160,7 +176,93 @@ const Page = () => {
             <span className="font-semibold text-[#2575FC]">Mohd Musaiyab</span>
           </p>
         </div>
+        <section className="bg-gradient-to-br from-[#1F1F1F] to-[#2C2C2C] rounded-2xl shadow-2xl p-8 mb-12 border border-gray-800">
+          <h2 className="text-3xl font-bold text-[#2575FC] mb-6 flex items-center">
+            <Briefcase className="mr-3" /> Professional Experience
+          </h2>
 
+          <div className="space-y-8">
+            {/* Lightning Technologies Experience */}
+            <div className="bg-[#121212] p-6 rounded-lg hover:shadow-2xl transition border border-gray-800 hover:border-[#2575FC]/50">
+              <div className="flex justify-between items-start">
+                <div>
+                  <h3 className="text-xl font-bold text-[#2575FC]">
+                    React Intern
+                  </h3>
+                  <p className="text-lg text-gray-300">
+                    Lightning Technologies
+                  </p>
+                </div>
+                <span className="bg-[#2575FC]/20 text-[#2575FC] px-3 py-1 rounded-full text-sm">
+                  Jan 2025 - June 2025
+                </span>
+              </div>
+              <p className="text-gray-400 mt-2">Remote (India)</p>
+
+              <ul className="mt-4 space-y-3">
+                <li className="flex items-start">
+                  <span className="text-[#2575FC] mr-2 mt-1">•</span>
+                  <span>
+                    Developed 15+ reusable React components using TypeScript and
+                    Tailwind CSS, reducing development time by 30% for future
+                    features
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-[#2575FC] mr-2 mt-1">•</span>
+                  <span>
+                    Integrated 50+ REST APIs with React-Redux applications,
+                    implementing efficient data fetching patterns and error
+                    handling
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-[#2575FC] mr-2 mt-1">•</span>
+                  <span>
+                    Optimized critical components using React.memo and
+                    useCallback, improving rendering performance by 40% in
+                    dashboard modules
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-[#2575FC] mr-2 mt-1">•</span>
+                  <span>
+                    Implemented Framer Motion animations across 8+ UI elements,
+                    enhancing user engagement and visual appeal of the
+                    application
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-[#2575FC] mr-2 mt-1">•</span>
+                  <span>
+                    Collaborated in Agile team of 8+ developers using Jira and
+                    Git workflows
+                  </span>
+                </li>
+              </ul>
+
+              <div className="mt-4 flex flex-wrap gap-2">
+                {[
+                  "React",
+                  "TypeScript",
+                  "Redux",
+                  "Tailwind CSS",
+                  "Framer Motion",
+                  "REST APIs",
+                  "Jira",
+                  "Git",
+                ].map((skill) => (
+                  <span
+                    key={skill}
+                    className="bg-[#2575FC]/10 text-[#2575FC] px-3 py-1 rounded-full text-sm hover:bg-[#2575FC]/30 transition"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
         {/* Highlighted Projects */}
         <section className="bg-gradient-to-r from-[#6A11CB] via-[#2575FC] to-[#1E1E1E] rounded-2xl shadow-2xl p-8 text-white mb-12">
           <h2 className="text-3xl font-bold mb-6">Highlighted Projects</h2>
@@ -185,16 +287,13 @@ const Page = () => {
                 <h3 className="text-xl font-semibold text-[#2575FC] mb-3">
                   MessMatch
                 </h3>
-                <span className="inline-block bg-[#2575FC] text-white text-xs font-semibold px-2 py-1 rounded-full">
-                  Currently Building
-                </span>
               </div>
               <p className="text-gray-300 mb-4">
                 Platform to connect mess contractors with colleges, corporates,
                 and events.
               </p>
               <a
-                href="https://github.com/MohdMusaiyab/MessMatch"
+                href="https://mess-bazaar.vercel.app/"
                 target="_blank"
                 className="flex items-center text-[#2575FC] hover:underline"
               >
@@ -224,11 +323,11 @@ const Page = () => {
                 </Link>{" "}
                 and{" "}
                 <Link
-                  href="https://github.com/canteen-Connect"
+                  href="https://mess-bazaar.vercel.app/"
                   target="_blank"
                   className="font-semibold text-[#2575FC]"
                 >
-                  Canteen Connect
+                  Mess-Bazaar
                 </Link>
                 , showcasing my ability to deliver scalable, user-focused
                 solutions.
@@ -309,14 +408,16 @@ const Page = () => {
                 <Code className="mr-2 text-[#2575FC]" /> Languages
               </h3>
               <div className="flex flex-wrap gap-2">
-                {["JavaScript", "TypeScript", "C++", "Python"].map((lang) => (
-                  <span
-                    key={lang}
-                    className="bg-[#121212] text-[#2575FC] px-3 py-1 rounded-full text-sm border border-[#2575FC]/30 transition-transform duration-200 hover:scale-110 hover:bg-[#2575FC] hover:text-white"
-                  >
-                    {lang}
-                  </span>
-                ))}
+                {["JavaScript", "TypeScript", "C", "C++", "Python"].map(
+                  (lang) => (
+                    <span
+                      key={lang}
+                      className="bg-[#121212] text-[#2575FC] px-3 py-1 rounded-full text-sm border border-[#2575FC]/30 transition-transform duration-200 hover:scale-110 hover:bg-[#2575FC] hover:text-white"
+                    >
+                      {lang}
+                    </span>
+                  )
+                )}
               </div>
             </div>
             <div>
@@ -354,14 +455,16 @@ const Page = () => {
                 <Wrench className="mr-2 text-[#2575FC]" /> Tools & Technologies
               </h3>
               <div className="flex flex-wrap gap-2">
-                {["Docker", "Postman", "GitHub", "Prisma ORM"].map((tool) => (
-                  <span
-                    key={tool}
-                    className="bg-[#121212] text-[#2575FC] px-3 py-1 rounded-full text-sm border border-[#2575FC]/30 transition-transform duration-200 hover:scale-110 hover:bg-[#2575FC] hover:text-white"
-                  >
-                    {tool}
-                  </span>
-                ))}
+                {["Docker", "Postman", "GitHub", "Prisma ORM", "Jira"].map(
+                  (tool) => (
+                    <span
+                      key={tool}
+                      className="bg-[#121212] text-[#2575FC] px-3 py-1 rounded-full text-sm border border-[#2575FC]/30 transition-transform duration-200 hover:scale-110 hover:bg-[#2575FC] hover:text-white"
+                    >
+                      {tool}
+                    </span>
+                  )
+                )}
               </div>
             </div>
           </div>
@@ -375,11 +478,11 @@ const Page = () => {
           <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             {[
               {
-                title: "Mess Match",
+                title: "Canteen Connect",
                 description:
-                  "A platform Connecting Colleges and Corporates with Mess Vendors and Contractors",
-                website: "https://github.com/MohdMusaiyab/MessMatch",
-                repo: "https://github.com/MohdMusaiyab/MessMatch",
+                  "A food ordering platfomr for collegs to reduce waiting time and better efiiciency",
+                website: "https://github.com/orgs/Canteen-Connect/repositories",
+                repo: "https://github.com/orgs/Canteen-Connect/repositories",
               },
               {
                 title: "E-estate",
