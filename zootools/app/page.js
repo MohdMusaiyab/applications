@@ -32,9 +32,11 @@ const Page = () => {
                 scalable web applications.
               </p>
               <p className="text-gray-300 leading-relaxed">
-                I &apos; m excited to apply for a position at{" "}
-                <span className="font-semibold">Zootools</span>. With my
-                experience in building dynamic platforms like{" "}
+                I&apos;m excited to apply for a position at{" "}
+                <span className="font-semibold">
+                  SMASHSEND (formerly Zootools)
+                </span>
+                . With my experience in building dynamic platforms like{" "}
                 <Link
                   href="gossipyfy.vercel.app"
                   target="_blank"
@@ -125,15 +127,22 @@ const Page = () => {
             Application Message
           </h2>
           <p className="text-gray-300 leading-relaxed">
-            Dear Zootools Team,
+            Dear SMASHSEND Team,
             <br />
-            <br />I am excited to express my interest in the Software
-            Engineer/Intern position at Zootools. With a strong foundation in
-            technologies such as{" "}
+            <br />
+            I’m thrilled to submit my application for the Software Engineer /
+            Intern position at{" "}
             <span className="font-semibold text-[#2575FC]">
-              Next.js, Node.js, Prisma, and WebSockets
+              SMASHSEND (formerly Zootools)
             </span>
-            , coupled with experience in developing innovative platforms like{" "}
+            . As a passionate full-stack developer, I love turning ideas into
+            clean, scalable, and user-centric digital experiences. I’m drawn to
+            SMASHSEND’s mission of building modern tools that power growth and
+            automation, and I’m eager to contribute to your journey with both
+            technical skill and creative energy.
+            <br />
+            <br />
+            My background includes developing full-stack platforms like{" "}
             <Link
               href="https://gossipyfy.vercel.app/"
               target="_blank"
@@ -141,7 +150,9 @@ const Page = () => {
             >
               Gossipyfy
             </Link>
-            {" , "}
+            {
+              " — a voice-sharing social app with anonymous features and payment integration, "
+            }
             <Link
               href="https://mess-bazaar.vercel.app/"
               target="_blank"
@@ -149,26 +160,38 @@ const Page = () => {
             >
               Mess-Bazaar
             </Link>
-            {" and "}
+            {" — a bidding platform for food services, and "}
             <Link
               href="https://github.com/canteen-Connect"
               target="_blank"
               className="font-semibold text-[#2575FC]"
             >
               Canteen-Connect
-            </Link>{" "}
-            , I am eager to contribute to Zootools &apos; mission of delivering
-            impactful solutions.
+            </Link>
+            {
+              " — a campus food ordering app with live order tracking. These projects helped me build real-world skills using "
+            }
+            <span className="font-semibold text-[#2575FC]">
+              Next.js, Node.js, Prisma, WebSockets, Supabase, and Framer Motion
+            </span>
+            .
             <br />
             <br />
-            My ability to craft scalable and user-focused applications, as well
-            as my collaborative nature, positions me well to thrive in your
-            dynamic environment. I would welcome the opportunity to discuss how
-            my skills align with your goals.
+            Beyond code, I value clear communication, team collaboration, and
+            thoughtful design. I’m the kind of teammate who’s proactive in
+            stand-ups, open to feedback, and excited to learn from others. My
+            goal is always to build for impact — not just features.
             <br />
             <br />
-            Thank you for considering my application. I look forward to the
-            possibility of contributing to your team.
+            What I bring to SMASHSEND is a strong foundation in modern web
+            development, an eagerness to solve meaningful problems, and a deep
+            motivation to grow with a team that values product thinking and
+            experimentation. I&apos;m confident that my energy and adaptability
+            would make me a valuable addition to your dynamic environment.
+            <br />
+            <br />
+            Thank you for considering my application. I would love the
+            opportunity to contribute and grow alongside your team.
             <br />
             <br />
             Best regards,
@@ -176,6 +199,7 @@ const Page = () => {
             <span className="font-semibold text-[#2575FC]">Mohd Musaiyab</span>
           </p>
         </div>
+
         <section className="bg-gradient-to-br from-[#1F1F1F] to-[#2C2C2C] rounded-2xl shadow-2xl p-8 mb-12 border border-gray-800">
           <h2 className="text-3xl font-bold text-[#2575FC] mb-6 flex items-center">
             <Briefcase className="mr-3" /> Professional Experience
@@ -305,7 +329,7 @@ const Page = () => {
         {/* What I Bring to the Team */}
         <section className="bg-gradient-to-br from-[#1F1F1F] to-[#2C2C2C] rounded-2xl shadow-2xl p-8 mb-12 border border-gray-800">
           <h2 className="text-3xl font-bold text-[#2575FC] mb-6">
-            What I Bring to Zootools
+            What I Bring to SMASHSEND
           </h2>
           <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-[#121212] p-6 rounded-lg hover:shadow-2xl transition">

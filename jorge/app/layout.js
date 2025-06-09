@@ -14,9 +14,9 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "My Apllication",
+  title: "Application for Jorge Ferreiro | SMASHSEND",
   description:
-    "Application for Software Engieering Intern at SMASHSEND(Formerly Zootools)",
+    "A dedicated application for the Software Engineering Intern role at SMASHSEND (formerly Zootools), addressed to Jorge Ferreiro, reflecting my skills, projects, and eagerness to contribute and grow.",
 };
 
 export default function RootLayout({ children }) {
